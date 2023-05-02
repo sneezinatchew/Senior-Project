@@ -148,7 +148,7 @@ def create_audio(file, newaudio, song_index):
                         first_time = False
                         starter_audio[song_index]
                         audio = AudioSegment.from_file(newaudio ,format="wav")
-                    filename = f"{note}.wav"
+                    filename = "ABC_notes/" + note + ".wav"
                     sound = AudioSegment.from_file(filename)
                     audio = audio.overlay(sound, position=duration)
                     start_time = start_time + duration*1000
