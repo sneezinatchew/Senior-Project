@@ -3,12 +3,12 @@
 # This is my senior project for Utah Tech University 2023. I learned and created a program that works with audio programming. It takes in a txt file manually
 # created for your song. It then overlays the notes specified in the txt file to create one audio file exactly how the songs sheet music is supposed to sound.
 # The main file is Instant_Audio.py  
-<br>
+<br \>
 
 # create audio by calling create_audio function  
-<br>
+<br \>
 ![Screenshot (29)](https://user-images.githubusercontent.com/97719090/236114671-eec0f49e-8d49-4958-80a7-1728d15c6de3.png)  
-<br>
+<br \>
 # The first parameter is the txt file for the song.
 # The second parameter is the name of the final audio file to be named.
 # The third parameter is the index of the file creation function.  
